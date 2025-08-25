@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bloco de Notas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Bloco de Notas</h1>
+
+  <div class="container">  
+    <label for="notas-salvas">Notas Salvas:</label>
+    <textarea id="notas-salvas" placeholder="Digite suas anotações aqui..."></textarea>
+    <div class="char-counter" id="notas-counter">0 caracteres</div>
+
+    <label for="rascunho">Rascunho:</label>
+    <textarea id="rascunho" placeholder="Digite seu rascunho aqui..."></textarea>
+    <div class="char-counter" id="rascunho-counter">0 caracteres</div>
+
+    <div class="botoes">
+    <button id="limpar-rascunho">Limpar Rascunho</button>
+    <button id="limpar-notas">Limpar Notas</button>
+    <button id="exportar-notas">Exportar Notas</button> 
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
